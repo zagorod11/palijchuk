@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li:hover .menu__list-item{
+	display:flex;
+	width: auto;
+	height: auto;
+	background-color:#C0C0C0;
+	position: absolute;
+	padding: 0 5px 0 5px;
+}
+.menu{
+	display:flex;
+	width: 100%;
+	height: 70px;
+	list-style:    none;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.menu__list-link{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+}
+.menu__list-item{
+	padding: 0 25px 0 25px;
+}
+a:hover{
+	color:yellow;
+	
+}
+a{
+	color: white;
+}
+
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+button {
+  border: 0;
+  background:#FF4500;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+ left:5%;
+}
+.card {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 390px;
+}
+.card .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+}
+.cart-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+left:410px;
+}
+.cart {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.cart:hover {
+  transform: rotateY(180deg);
+}
+.cart .sider {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+}
+.cart .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+}
+.carb-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+left:410px;
+}
+.carb {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.carb:hover {
+  transform: rotateY(180deg);
+}
+.carb .sidel {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+}
+.carb .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+}
+.carl-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: absolute;
+  width: 150px;
+  top: 255px;
+  right: 273%;
+
+}
+.carl {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.carl:hover {
+  transform: rotateY(180deg);
+}
+.carl .sidek {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+}
+.carl .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+  
+}
+.carm-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: absolute;
+  width: 150px;
+  right: 273%;
+
+}
+.carm {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.carm:hover {
+  transform: rotateY(180deg);
+}
+.carm .sidel {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 390px;
+}
+.carm .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+  
+}
+.carq-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: absolute;
+  width: 150px;
+ left:546%;
+
+}
+.carq {
+  height: 250px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 250px;
+}
+.carq:hover {
+  transform: rotateY(180deg);
+}
+.carq .sidep {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+}
+.carq .back {
+  background: orange;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  right: 1px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
